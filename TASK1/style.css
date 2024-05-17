@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+   
+}
+section{
+    min-height: 100vh;
+    opacity: 0.9;
+    background-image: url(https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1715731200&semt=ais_user);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width: 85%;
+    margin:auto
+
+}
+nav{
+    height: 80px;
+
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: bisque;
+    margin: 15px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #fff;
+   text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 115px;
+    padding: 7px 8px;
+
+}
+nav ul li a:hover{
+    background-color: rgb(175, 132, 75);
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: rgb(175, 120, 48);
+}
+.Articles{
+    width: 50%;
+    margin: 150px;
+    text-align: center;
+    transform: translate(25vh);
+
+}
+.Articles h1{
+    font-size: 36px;
+    color: rgb(249, 249, 243);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.Articles p{
+    font-size: 18px;
+    color: rgb(234, 220, 220);
+    line-height: 1.5;
+    margin-bottom: 50px;
+
+}
+.Articles .btn{
+    color: rgb(18, 56, 43);
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 115px;
+}
+.Articles .btn:hover{
+    background-color: aqua;
+    transition: o.5s ease;
+}
