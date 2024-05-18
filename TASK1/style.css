@@ -7,7 +7,7 @@
 }
 section{
     min-height: 100vh;
-    opacity: 0.9;
+    
     background-image: url(https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1715731200&semt=ais_user);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,6 +31,7 @@ nav h1{
     margin: 15px;
     padding: 0px;
     box-sizing: border-box;
+    
     
 }
 nav ul{
