@@ -1,0 +1,101 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(146, 162, 235, 0.825);
+    background-image: url(https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg);
+    
+       
+        background-repeat: no-repeat;
+        /* Optionally, you can also set background size and position */
+        background-size: cover; /* or contain, or specific size */
+        background-position: center; /* or any other position */
+}
+
+.container {
+    padding: 25px;
+    width: 450px;
+    border-radius: 30px;
+    background-color: rgba(231, 176, 251, 0.566);
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25);
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.974);
+    font-size: 1.8em;
+}
+
+.task-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1em;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.task-input button {
+    padding: 15px 20px;
+    background-color: #af4ca5;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.task-input button:hover {
+    background-color: #430744;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(211, 184, 220, 0.868);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+li.done {
+    background-color: rgb(150, 164, 181);
+}
+
+li span.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #14d59b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li span.close:hover {
+    background-color: #ff3333;
+}
+
+li.done span.close {
+    display: none;
+}
